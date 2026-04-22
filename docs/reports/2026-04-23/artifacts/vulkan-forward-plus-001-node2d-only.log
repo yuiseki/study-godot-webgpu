@@ -1,0 +1,129 @@
+WorkerThreadPool: 32 threads, 9 max low-priority.
+Godot Engine v4.5.dev.custom_build.babaa2ce5 (2026-04-22 20:15:48 UTC) - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+JoypadLinux: udev enabled and loaded successfully.
+Xshape 1.1 detected.
+Xinerama 1.1 detected.
+Xrandr 1.6 detected.
+Xrender 0.11 detected.
+Xinput 2.2 detected.
+XInput: Refreshing devices.
+XInput: No touch devices found.
+Devices:
+  #0: NVIDIA NVIDIA GeForce RTX 3060 - Supported, Discrete
+  #1: NVIDIA NVIDIA GeForce RTX 3060 - Unsupported, Discrete
+  #2: Unknown llvmpipe (LLVM 20.1.2, 256 bits) - Supported, CPU
+Optional extension VK_EXT_fragment_density_map not found
+Optional extension VK_EXT_astc_decode_mode not found
+Optional extension VK_EXT_texture_compression_astc_hdr not found
+Optional extension VK_EXT_debug_marker not found
+- Vulkan Fragment Shading Rate supported:
+  Pipeline fragment shading rate
+  Primitive fragment shading rate
+  Attachment fragment shading rate, min texel size: (16, 16), max texel size: (16, 16), max fragment size: (4, 4)
+- Vulkan Fragment Density Map not supported
+- Vulkan multiview supported:
+  max view count: 32
+  max instances: 134217727
+- Vulkan subgroup:
+  size: 32
+  min size: 32
+  max size: 32
+  stages: STAGE_VERTEX, STAGE_TESSELLATION_CONTROL, STAGE_TESSELLATION_EVALUATION, STAGE_GEOMETRY, STAGE_FRAGMENT, STAGE_COMPUTE, STAGE_RAYGEN_KHR, STAGE_ANY_HIT_KHR, STAGE_CLOSEST_HIT_KHR, STAGE_MISS_KHR, STAGE_INTERSECTION_KHR, STAGE_CALLABLE_KHR, STAGE_TASK_NV, STAGE_MESH_NV
+  supported ops: FEATURE_BASIC, FEATURE_VOTE, FEATURE_ARITHMETIC, FEATURE_BALLOT, FEATURE_SHUFFLE, FEATURE_SHUFFLE_RELATIVE, FEATURE_CLUSTERED, FEATURE_QUAD, FEATURE_PARTITIONED_NV
+  quad operations in all stages
+Vulkan 1.4.312 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 3060
+Startup PSO cache (0.0 MiB)
+ScreenSaver: DBus 1.14.10 detected.
+FreeDesktopScreenSaver: Acquired screensaver inhibition cookie: 6956
+PortalDesktop: DBus 1.14.10 detected.
+AT-SPI2: DBus 1.14.10 detected.
+Using "default" pen tablet driver...
+Creating VMA small objects pool for memory type index 1
+Shader 'CanvasSdfShaderRD' (group 0) SHA256: cdae826bf6b5a9c5a3d807c2f56bd8ae5c86b7fe821221d44abce52e460f573a
+Shader 'SkeletonShaderRD' (group 0) SHA256: f68a7ab52e5c1a6d5cfa1b35ce45eb6fa51dfd5edbacdeca9e8b3eeb63a32042
+Shader 'SortShaderRD' (group 0) SHA256: 707d1a1f456a68601f3c130ffbf085f9672ebe3afeef772b1bdb30e30a1a5ced
+Shader 'ParticlesShaderRD' (group 0) SHA256: b88510cb53f1d0168cce4b99d9bf6396f0e98d06d670acfa38865b46e8885d9c
+Shader 'ParticlesCopyShaderRD' (group 0) SHA256: e6864211eadf5a78de5ec45a233074467281bd4e7d4e0db4efdab2c66cf441af
+Shader 'CanvasShaderRD' (group 0) SHA256: 5c1d3368c574105020d413c5c42da11011cfaeced1be7773055be726a32c6f32
+Shader 'CanvasOcclusionShaderRD' (group 0) SHA256: ba72bbe846cf792a5765afd1a6d6a6af079a07fc098e9a1a6a9ece507513f1d3
+Shader 'ClusterRenderShaderRD' (group 0) SHA256: dd469147b55fdf42ee6aaa596dfa31ca31e6066f613ef2bb1eee84e9fdba95cf
+Shader 'ClusterStoreShaderRD' (group 0) SHA256: 00d141982f6b1197f9d2cad62d19fec78f9369f4d226ad6318fdfae6d8c9f108
+Shader 'ClusterDebugShaderRD' (group 0) SHA256: 890f893a28f931b49849123dbd2f17756564aa39bfa9657e71e423587a16a2e4
+Shader 'SceneForwardClusteredShaderRD' (group 0) SHA256: 91c697c5109bd788a6ca2ac138ac12a8cc72679e0d8b59614692724d570e044f
+Shader 'SceneForwardClusteredShaderRD' (group 1) SHA256: f12db9a5f743773720675680e2f7759e1dbe6992b5c421fbb7fd548802bf3158
+Shader 'SceneForwardClusteredShaderRD' (group 2) SHA256: 6180594e38a875d865508911530b5d7cefef29dbfd8eeb6e60347ebede391a98
+Shader 'SceneForwardClusteredShaderRD' (group 3) SHA256: 5e76e5340c654094efc3c548a28cab2a499fd1f3803941afbef84358e64120e9
+Shader 'BestFitNormalShaderRD' (group 0) SHA256: 873bb3ec01b1ac9eb213e8e7935aa13cc2330af77c93e111de362e81a89b9c17
+Shader 'IntegrateDfgShaderRD' (group 0) SHA256: 23f9380cac14107a3d1345a1eece1453f66bc6620efc1d5dee52b7fbf5ca1bdd
+Shader 'ResolveShaderRD' (group 0) SHA256: 4abf001bd21c97ee2aefcc1d3eb6a8ca865c85a39be555950a38ca33bea3520d
+Shader 'TaaResolveShaderRD' (group 0) SHA256: dee2c131c81b75aee34bdf662eefd7ba0bbba0135ae88b3d139ffd7439d913d2
+Shader 'Fsr2DepthClipPassShaderRD' (group 0) SHA256: 3633963a06c20c2b51ecbaabcf176425ec9553546f05dfc33338c00f9fd30eaa
+Shader 'Fsr2ReconstructPreviousDepthPassShaderRD' (group 0) SHA256: d5dfa2d25b5a7e7e7b7a78b4614051266c256a295caf062919cab557bfdcb774
+Shader 'Fsr2LockPassShaderRD' (group 0) SHA256: f3910e6fc102616ec63ff47f4dbf6f58494d68eb5e420ccd118f2331692b02e4
+Shader 'Fsr2AccumulatePassShaderRD' (group 0) SHA256: c1a334d0c47b12293066f7c92e320ff10b0edc4c57d98351ce457e9e3a53c913
+Shader 'Fsr2RcasPassShaderRD' (group 0) SHA256: 0cc1f001e92155b779f81e2270ae18b550c4c80f43b65c097f3343b4234cb556
+Shader 'Fsr2ComputeLuminancePyramidPassShaderRD' (group 0) SHA256: 1966bc6ce32a3792a0a6021387a7c520f55258917a3ec24eb4c901c476e2fb48
+Shader 'Fsr2AutogenReactivePassShaderRD' (group 0) SHA256: 799a74ce820ff7f04d8c70f0836219d786b150603d59eed4b28759fb2148a56a
+Shader 'Fsr2TcrAutogenPassShaderRD' (group 0) SHA256: 38fb78ff4b57ce50c8bf1aec12a9a8aeb4fd06d66eacf1d7b6925ad6f0f76a15
+Shader 'SsEffectsDownsampleShaderRD' (group 0) SHA256: bd395098e66d8970945f4ddd7499430dc64f98eaa69e2d48e4daa6349b512159
+Shader 'SsilShaderRD' (group 0) SHA256: f0e5d3b971ee7edb0d806636a72253818b3e3dd37537f26ae4964102290537d6
+Shader 'SsilImportanceMapShaderRD' (group 0) SHA256: e8d8f235a13feaa030b83fab8dba2ed82363dd2e7582f17dd7ad7452bf24338c
+Shader 'SsilBlurShaderRD' (group 0) SHA256: 549e34e9100999ddb02b82470ff9acc998035cf8806a51a4d330f9a2fedd2c7e
+Shader 'SsilInterleaveShaderRD' (group 0) SHA256: 77d0758696f7392f047996cf684c8107333a148eeac27811bdf8b2e9cc8a9205
+Shader 'SsaoShaderRD' (group 0) SHA256: 1a413389bfc6fe083f2026f11c08db4f2fa3a124daf04d6e113891dedae66872
+Shader 'SsaoImportanceMapShaderRD' (group 0) SHA256: a5aa8d29c5c11d2733705a6f8a73a1237362cfd6029b112f55d19927e0f671e4
+Shader 'SsaoBlurShaderRD' (group 0) SHA256: 32b304e1dc623254d3ef815ca73f20e590906b957e14578d8bf589e4b3dbec06
+Shader 'SsaoInterleaveShaderRD' (group 0) SHA256: dd6579f96a43dd7022d04e18b081fae7fd38abca1bff9f7d6e256138d6ce90d0
+Shader 'ScreenSpaceReflectionScaleShaderRD' (group 0) SHA256: b08ff7cca6151dc245ee5c6551870abf040f377890b9f4dc99851d6004b03765
+Shader 'ScreenSpaceReflectionShaderRD' (group 0) SHA256: a6171e1ade10115d854784c3429ec184f0a7cc49cace1a7a70b114bfed060463
+Shader 'ScreenSpaceReflectionFilterShaderRD' (group 0) SHA256: 16a01f64a335fc6026656dd5e17f829e824284639492287d543d58182927ed10
+Shader 'SubsurfaceScatteringShaderRD' (group 0) SHA256: 451c356a7e82199b8f395db7c9d3cd9b915cf64eed36c6cf9614d39581bbf535
+Shader 'SkyShaderRD' (group 0) SHA256: 17220eebf6e147a6bd2a9c9a2cf535ac240e9dd6d54af7fc73108e863d4f36e1
+Shader 'VoxelGiShaderRD' (group 0) SHA256: f2a2dd6d562476864db1df0e49badd25fa5d5afbe9612880e631e22078c345d3
+Shader 'VoxelGiDebugShaderRD' (group 0) SHA256: 16fbc04af8c8c16887de752e25e7e9f49c1c7f8206fa974491bdde3b7ef4cfc9
+Shader 'SdfgiPreprocessShaderRD' (group 0) SHA256: 42903e03483b27201a74eb3a7ece3b96674160e51aa519d4531994d6841260bb
+Shader 'SdfgiDirectLightShaderRD' (group 0) SHA256: e8bc8d25958b3908a23b1a86420f4bcf222548164d901b5ebe1f129cdadd7c96
+Shader 'SdfgiIntegrateShaderRD' (group 0) SHA256: 93a7a2c1f748f3077d9db672ebc543ae7831f8d78d5ae14ddddbf786b57d05d5
+Shader 'GiShaderRD' (group 0) SHA256: aa36e26f7cd6ae6c6d9d2ea426bb2306bb801b34cb04ba87ba5b514ca0906505
+Shader 'SdfgiDebugShaderRD' (group 0) SHA256: b0cb6aadb94db43cb95fbba8f0f3dcbc37d17ee02e956ce6d1cc3d1b20f62ed5
+Shader 'SdfgiDebugProbesShaderRD' (group 0) SHA256: 6424369232ededa44dc0e2cd5d2b39fe7c823a4abb94cbd48b189b919a7f37cb
+Shader 'VolumetricFogShaderRD' (group 0) SHA256: 5b99580d682f203156e5d0752d19b6eedd0a271c5a37e57e47ddf893bf25b08e
+Shader 'VolumetricFogProcessShaderRD' (group 0) SHA256: d32295ea8ab132930e092b51d46ed2aa09da395dc146dfada2bbb301bc199deb
+Shader 'BokehDofRasterShaderRD' (group 0) SHA256: f64d89ee83224e484d27b62d05b0970e3d14332778b200b5e6abe600d563939c
+Shader 'BlurRasterShaderRD' (group 0) SHA256: 08029813bf966f80cfe5e883b5cbbf81f8116113e85709697f7320eb0ade997e
+Shader 'CopyShaderRD' (group 0) SHA256: 64cbd36f586ac30a14bf34adce807efae054282821cf58546cd9bad0dbc131d5
+Shader 'CopyToFbShaderRD' (group 0) SHA256: b9f4581c19ac1c3ff7246fb69a7eb1eb6466a81de63c576a511d57b083ae27d3
+Shader 'CubeToDpShaderRD' (group 0) SHA256: 512a97b255034f5e17bf05b6555755d9d76fb444549016482e03468adf96f9a0
+Shader 'CubemapDownsamplerRasterShaderRD' (group 0) SHA256: 106e89cc0c54cc1c42453afe6b3d1e0b6a33b8e3ada26524d188b067a0ab4cb6
+Shader 'CubemapFilterRasterShaderRD' (group 0) SHA256: 78ff91e4d40714ff72131ad77122c64add837ed68f7546a4a68051a750375721
+Shader 'CubemapRoughnessRasterShaderRD' (group 0) SHA256: 1a4b9a3c9908155b4e75c90d1190b9e67526976ea20224bf96348ef112adc137
+Shader 'SpecularMergeShaderRD' (group 0) SHA256: ef74e8cadb24d73b96fc87482726f1a5fc64c5f665995c77561893ce900c2d02
+Shader 'ShadowFrustumShaderRD' (group 0) SHA256: f31251923c991043033dd8004c04c692349ef7870e51676dc7dbc47e992b53b2
+Shader 'MotionVectorsShaderRD' (group 0) SHA256: 3492c411d60dabdc4d09bfecd4a286d483adbece59df77b10839b9669586fabd
+Shader 'LuminanceReduceRasterShaderRD' (group 0) SHA256: fcb00a8f4014f66bb20eb65559f922096eb7166b232eafae982fa7241bed7617
+Shader 'TonemapShaderRD' (group 0) SHA256: b6ce698b5f0b7c8a5d3e9cbca08086285b50c83191f936ae2fd2d742a135de51
+Shader 'VrsShaderRD' (group 0) SHA256: 97811e0545bb79fe861eb10d3980636d0a29295c3ea0722f3be213287fe04166
+Shader 'BlitShaderRD' (group 0) SHA256: 71ced8ac972c899227f28fddc03d1c9309f4dba8025c2a0e593010c2936e875b
+PulseAudio 16.1.0 detected.
+PulseAudio: context other
+PulseAudio: context other
+PulseAudio: context other
+PulseAudio: context ready
+PulseAudio: Detecting channels for device: alsa_output.pci-0000_04_00.1.pro-output-3
+PulseAudio: detected 8 output channels
+PulseAudio: audio buffer frames: 512 calculated output latency: 11ms
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2887304373
+EDITOR API HASH: 1766416536
+Loaded system CA certificates
+Loading resource: res://main.tscn
+Loading resource: res://scripts/main.gd
+001_node2d_only ready
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+PulseAudio: context terminated
+Updated PSO cache (2.9 MiB)

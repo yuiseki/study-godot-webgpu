@@ -1,0 +1,53 @@
+WorkerThreadPool: 32 threads, 9 max low-priority.
+Godot Engine v4.5.dev.custom_build.babaa2ce5 (2026-04-22 20:15:48 UTC) - https://godotengine.org
+TextServer: Added interface "Dummy"
+TextServer: Added interface "ICU / HarfBuzz / Graphite (Built-in)"
+JoypadLinux: udev enabled and loaded successfully.
+Xshape 1.1 detected.
+Xinerama 1.1 detected.
+Xrandr 1.6 detected.
+Xrender 0.11 detected.
+Xinput 2.2 detected.
+XInput: Refreshing devices.
+XInput: No touch devices found.
+Detecting GPUs, set DRI_PRIME in the environment to override GPU detection logic.
+Only one GPU found, using default.
+ScreenSaver: DBus 1.14.10 detected.
+FreeDesktopScreenSaver: Acquired screensaver inhibition cookie: 6950
+PortalDesktop: DBus 1.14.10 detected.
+AT-SPI2: DBus 1.14.10 detected.
+Using "default" pen tablet driver...
+Shader 'CanvasSdfShaderGLES3' SHA256: eea015e426936ad225e2207ec12fd52d94fcacf6f9321d56502f21f1776dc771
+Shader 'SkeletonShaderGLES3' SHA256: fb0d209d3edb1427e211f78546ce3045527c6428c17f50d31fd5c067e380ef7a
+Shader 'ParticlesShaderGLES3' SHA256: 0fb0ed6e0fe59e12d9a42307391632cdc186b49af8f83031bd16820a02f353e9
+Shader 'ParticlesCopyShaderGLES3' SHA256: cce4e09dc8fef149aaa12ef31995117cc219bcc584dbaa97edc617326862dae6
+Shader 'CopyShaderGLES3' SHA256: 10ec3160d248daf8acf1f6722f4112564f13958db8f4eb13c647de95b03c7c9a
+Shader 'CubemapFilterShaderGLES3' SHA256: 2ec99acd1ac3bdedbf9963eed121bfdf68b3aab00c9c4837b6905c3c64e595f3
+Shader 'GlowShaderGLES3' SHA256: eebdda6e0ee4f2d90ee0dffbd6083816a95b601889762a511a16c27fb6b54f7a
+Shader 'PostShaderGLES3' SHA256: d5c88906bfe3e407359c56277eb8c997c7341d3c8e2e866c65b0f3253d57b512
+Shader 'FeedShaderGLES3' SHA256: dfe655765023ff6bbe42c6c7b20b8e9e63d4a002a3b91eb967a5506123ac51dc
+Shader 'CanvasShaderGLES3' SHA256: 1e8db8b2ef9d627214ac09404eca57038171812e94a08ba3461467aa0a08fcca
+Shader 'CanvasOcclusionShaderGLES3' SHA256: abfda3ed1c8223818ff222e2aeb16f2b5526ff4810ee897571085dd0d3293166
+Shader 'SceneShaderGLES3' SHA256: 8e067f0db8f12e0f277da5488c0869951da8fd86df8913ae2923a8306f3277d4
+Shader 'SkyShaderGLES3' SHA256: e25a9e6f40f46b59574f5fe341cfd54ef2df0e4b98e1fec09e80993860fdb54c
+OpenGL API 3.3.0 NVIDIA 580.126.20 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3060
+PulseAudio 16.1.0 detected.
+PulseAudio: context other
+PulseAudio: context other
+PulseAudio: context other
+PulseAudio: context ready
+PulseAudio: Detecting channels for device: alsa_output.pci-0000_04_00.1.pro-output-3
+PulseAudio: detected 8 output channels
+PulseAudio: audio buffer frames: 512 calculated output latency: 11ms
+
+TextServer: Primary interface set to: "ICU / HarfBuzz / Graphite (Built-in)".
+CORE API HASH: 2887304373
+EDITOR API HASH: 1766416536
+Loaded system CA certificates
+Loading resource: res://main.tscn
+Loading resource: res://scripts/main.gd
+001_node2d_only ready
+XR: Clearing primary interface
+XR: Removed interface "Native mobile"
+XR: Removed interface "OpenXR"
+PulseAudio: context terminated

@@ -1,0 +1,23 @@
+; Engine configuration file.
+; Minimal Sprite2D project for WebGPU startup isolation.
+
+config_version=5
+
+[application]
+
+config/name="002 Sprite One"
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.6")
+
+[display]
+
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/size/window_width_override=960
+window/size/window_height_override=540
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+renderer/rendering_method.mobile="mobile"
