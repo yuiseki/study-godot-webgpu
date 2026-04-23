@@ -2,6 +2,12 @@
 
 Date: 2026-04-23
 
+Latest rerun covered in this report:
+
+- `davnotdev/godot` branch: `webgpu`
+- commit: `babaa2c`
+- local tree: clean, no local WebGPU source patches
+
 ## Repository Note
 
 The full raw `logs/` directory is intentionally kept out of version control.
@@ -224,3 +230,31 @@ That is enough to justify narrowing the next debugging step specifically to:
 
 - renderer initialization for `webgpu + forward_plus`
 - shader generation / shader resource setup for `webgpu + mobile`
+
+## Follow-up Rerun on `babaa2c`
+
+After feedback from notdav, the native startup matrix was rerun against the latest local `upstream/webgpu` state at commit `babaa2c`.
+
+The local source tree was restored to a clean state before rerunning. A temporary wasm32-only patch used during Web template probing was removed before this native rerun.
+
+Artifacts:
+
+- `webgpu + forward_plus`
+  - `/home/yuiseki/Workspaces/repos/_godot/study-godot-webgpu/logs/rerun-babaa2c-webgpu-forward_plus-882837/summary.tsv`
+  - curated log: `/home/yuiseki/Workspaces/repos/_godot/study-godot-webgpu/docs/reports/2026-04-23/artifacts/rerun-babaa2c-webgpu-forward-plus-001-node2d-only.log`
+- `webgpu + mobile`
+  - `/home/yuiseki/Workspaces/repos/_godot/study-godot-webgpu/logs/rerun-babaa2c-webgpu-mobile-882838/summary.tsv`
+  - curated logs:
+    - `/home/yuiseki/Workspaces/repos/_godot/study-godot-webgpu/docs/reports/2026-04-23/artifacts/rerun-babaa2c-webgpu-mobile-005-subviewport.log`
+    - `/home/yuiseki/Workspaces/repos/_godot/study-godot-webgpu/docs/reports/2026-04-23/artifacts/rerun-babaa2c-webgpu-mobile-006-meshinstance3d-one.log`
+
+Result:
+
+| Configuration | Scene load | `_ready()` | Result shape |
+| --- | --- | --- | --- |
+| `webgpu + forward_plus` | `0/6` | `0/6` | Same as the original run: timeout before `main.tscn` load |
+| `webgpu + mobile` | `6/6` | `6/6` | Same as the original run: reaches scene startup, then shader-related errors and timeout |
+
+The rerun did not change the main conclusion of this report.
+
+The useful nuance is that notdav expected the current work-in-progress path to get up to `005`. In this rerun, `webgpu + mobile` does reach `_ready()` for `005_subviewport`, but it still reports repeated shader-related errors and times out. `webgpu + forward_plus` does not reach `001_node2d_only` scene load.
